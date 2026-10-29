@@ -23,12 +23,12 @@ spring:
           enabled: false
           lower-case-service-id: true
       routes:
-        # Boutique Service
+        # Tache Service
         - id: tache-categories
           uri: lb://tache-service
           predicates:
             - Path=/api/categories/**
-        - id: tache-produits
+        - id: tache-tache
           uri: lb://tache-service
           predicates:
             - Path=/api/tache/**
