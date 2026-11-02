@@ -35,4 +35,9 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 
+logging:
+  level:
+    org.springframework.web.cors: DEBUG
+    org.springframework.cloud.gateway: TRACE
+
 
