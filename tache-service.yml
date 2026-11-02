@@ -4,8 +4,8 @@ spring:
     
   datasource:
     url: jdbc:postgresql://localhost:5432/gestion-tache
-    username: root
-    password: root
+    username: dashroot
+    password: dashroot
     driver-class-name: org.postgresql.Driver
 
   jpa:
